@@ -32,8 +32,8 @@ document.addEventListener('DOMContentLoaded', () => {
             tasks = JSON.parse(storedTasks);
         } else {
             tasks = [
-                { id: Date.now() + 1, text: "Exemplo: Esta é uma tarefa muito, muito longa que deve quebrar a linha automaticamente para evitar qualquer barra de rolagem horizontal.", completed: false },
-                { id: Date.now() + 2, text: "#TAREFA Concluída: Fundo mais escuro e opaco", completed: true },
+                { id: Date.now() + 1, text: "", completed: false },
+                { id: Date.now() + 2, text: "", completed: true },
             ];
         }
         renderTasks();
